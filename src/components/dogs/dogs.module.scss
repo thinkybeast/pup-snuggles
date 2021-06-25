@@ -1,0 +1,28 @@
+.dog-list {
+  display: flex;
+  flex-direction: row;
+  // align-items: flex-start;
+  padding: 12px;
+  flex-wrap: wrap;
+  // justify-content: space-evenly;
+  margin: 8px;
+}
+
+.subTitle {
+  //styleName: Heading / Medium (28\35);
+  font-family: Futura PT;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: -0.25px;
+  margin: 0 0 40px;
+}
+
+.header {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}

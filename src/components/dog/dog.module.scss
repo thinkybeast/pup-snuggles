@@ -1,0 +1,90 @@
+.dogImage {
+  width: 195px;
+  margin: 0 auto;
+  object-fit: cover;
+  height: 160px;
+  display: inherit;
+  border-radius: 4px;
+
+  @media only screen and (max-width: 500px) {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+.dog-card {
+  background: #ffffff;
+  border: 1px solid #f0f0f2;
+  border-radius: 8px;
+  width: 219px;
+  height: 300px;
+  flex: 0 0 200px;
+  align-self: center;
+  overflow: hidden;
+  padding: 12px;
+  box-sizing: content-box;
+  margin: 8px;
+
+  @media only screen and (max-width: 500px) {
+    width: 100%;
+    flex: auto;
+    height: auto;
+  }
+}
+
+.dog-card-name {
+  font-family: Futura PT;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 12px 0 0 0;
+}
+
+.dog-card-breed {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 4px 0 0 0;
+}
+
+.dog-card-location {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #635e69;
+  margin: 0;
+}
+
+.snug-button {
+  background-color: white;
+  color: #d65108;
+  border: none;
+  border-radius: 100px;
+  font-weight: 600;
+  padding: 8px 32px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 21px;
+  border: 1px solid #d65108;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.snug-button:hover {
+  background-color: #d65108;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}

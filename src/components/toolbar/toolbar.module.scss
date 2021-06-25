@@ -1,0 +1,10 @@
+.toolbar {
+  display: flex;
+  padding: 14px;
+  margin: 16px;
+
+  @media only screen and (max-width: 500px) {
+    flex-direction: column;
+    margin: 8px;
+  }
+}
